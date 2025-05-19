@@ -30,8 +30,8 @@ ul, ol {
     max-width: 400px;
     margin-bottom: 30px;
     display: inline-block;
-    text-align: left;
-    width: 325px; 
+    text-align: center;
+    width: 150%; 
   }
 
 li {
