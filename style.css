@@ -1,11 +1,7 @@
 #anasayfa{
-    text-align: center;
-    font-size: larger;
+    
     width: auto;
     
-}
-#yardim{
-    visibility: hidden;
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -28,7 +24,7 @@ ul, ol {
     margin-bottom: 30px;
     display: inline-block;
     text-align: center;
-    width:75vw; 
+    width:60vw; 
   }
 
 li {
