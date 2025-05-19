@@ -9,6 +9,7 @@
 <body id="ana">
     <div id="anasayfa">  
         <h1>Türkiye</h1>
+        <div class="container">
         <?xml version="1.0"?>
                 
             <!--********* Copyright (c) 2024 Pareto Softare, LLC DBA Simplemaps.com ***************************************
@@ -353,6 +354,7 @@
             </circle>
             </g>
             </svg>
+        </div>
             <a href="http://" rel="noopener noreferrer" id="link"><h1 id="ilsecim"></h1></a>
         </div>
         <style>
@@ -367,9 +369,9 @@
                 transition: 0.5s;
             }
             svg {
-                width: 100%;
-                height: auto;
                 max-width: 800px;
+                width: 100vw;
+                height: fit-content;
             }
 
             svg path {
@@ -387,6 +389,11 @@
 
             svg path.selected {
             fill: #1976d2;
+            }
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
         </style>
